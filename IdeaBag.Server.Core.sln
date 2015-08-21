@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Server", "IdeaBag.Server.Core\IdeaBag.Server.csproj", "{ED26B695-E482-4F3F-A7AD-26CFAE5F0083}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portable", "Portable", "{64F13538-222B-41B3-A46C-0DE30D9AFD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Portable.Utility", "Portable\IdeaBag.Portable.Utility\IdeaBag.Portable.Utility.csproj", "{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Portable.Data", "Portable\IdeaBag.Portable.Data\IdeaBag.Portable.Data.csproj", "{D427D153-BD6B-4D74-B534-0DA79A40C019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Portable.ViewModels", "Portable\IdeaBag.Portable.ViewModels\IdeaBag.Portable.ViewModels.csproj", "{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Portable.Client.DataAccess", "Portable\IdeaBag.Portable.Client.DataAccess\IdeaBag.Portable.Client.DataAccess.csproj", "{42B3DF99-454C-416F-B6F8-C47923CCCEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaBag.Server.DataAccess", "IdeaBag.Server.DataAccess\IdeaBag.Server.DataAccess.csproj", "{69DAB926-0D72-49ED-8FA0-97EC0FF2AB3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED26B695-E482-4F3F-A7AD-26CFAE5F0083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED26B695-E482-4F3F-A7AD-26CFAE5F0083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED26B695-E482-4F3F-A7AD-26CFAE5F0083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED26B695-E482-4F3F-A7AD-26CFAE5F0083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D427D153-BD6B-4D74-B534-0DA79A40C019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D427D153-BD6B-4D74-B534-0DA79A40C019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D427D153-BD6B-4D74-B534-0DA79A40C019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D427D153-BD6B-4D74-B534-0DA79A40C019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B3DF99-454C-416F-B6F8-C47923CCCEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B3DF99-454C-416F-B6F8-C47923CCCEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B3DF99-454C-416F-B6F8-C47923CCCEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B3DF99-454C-416F-B6F8-C47923CCCEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DAB926-0D72-49ED-8FA0-97EC0FF2AB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DAB926-0D72-49ED-8FA0-97EC0FF2AB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DAB926-0D72-49ED-8FA0-97EC0FF2AB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DAB926-0D72-49ED-8FA0-97EC0FF2AB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57412B9C-7E62-40EF-8439-6E3B5BC7C18D} = {64F13538-222B-41B3-A46C-0DE30D9AFD53}
+		{D427D153-BD6B-4D74-B534-0DA79A40C019} = {64F13538-222B-41B3-A46C-0DE30D9AFD53}
+		{5F0642E1-AAA6-4EA5-80AA-5CD60246CD73} = {64F13538-222B-41B3-A46C-0DE30D9AFD53}
+		{42B3DF99-454C-416F-B6F8-C47923CCCEB0} = {64F13538-222B-41B3-A46C-0DE30D9AFD53}
+	EndGlobalSection
+EndGlobal

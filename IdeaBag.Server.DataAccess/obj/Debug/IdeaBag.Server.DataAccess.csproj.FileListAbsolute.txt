@@ -1,0 +1,11 @@
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\obj\Debug\IdeaBag.Server.DataAccess.csprojResolveAssemblyReference.cache
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Server.DataAccess.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Server.DataAccess.pdb
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Portable.Data.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Portable.Utility.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Portable.Data.pdb
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\IdeaBag.Portable.Utility.pdb
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\obj\Debug\IdeaBag.Server.DataAccess.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\IdeaBag.Server.DataAccess\obj\Debug\IdeaBag.Server.DataAccess.pdb
