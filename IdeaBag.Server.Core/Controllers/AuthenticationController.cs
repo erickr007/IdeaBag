@@ -15,13 +15,15 @@ namespace IdeaBag.Server.Core.Controllers
         #region Login
 
         [HttpGet]
-        public LoginResultModel LoginStandardUser(string userid, string passwordhash)
+        public string LoginStandardUser(string uid, string pw)
         {
             LoginResultModel result = new LoginResultModel();
 
-            result = DatabaseManager.Instance.AuthenticateStandardUser(userid, passwordhash);
+            result = DatabaseManager.Instance.AuthenticateStandardUser(uid, pw);
 
-            return result;
+            string jsonresult = JsonTools.Serialize<LoginResultModel>(result);
+
+            return jsonresult;
         }
 
 

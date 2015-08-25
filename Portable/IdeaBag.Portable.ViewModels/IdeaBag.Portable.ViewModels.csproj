@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
@@ -38,10 +38,6 @@
     <ProjectReference Include="..\IdeaBag.Portable.Data\IdeaBag.Portable.Data.csproj">
       <Project>{d427d153-bd6b-4d74-b534-0da79a40c019}</Project>
       <Name>IdeaBag.Portable.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IdeaBag.Portable.Utility\IdeaBag.Portable.Utility.csproj">
-      <Project>{57412b9c-7e62-40ef-8439-6e3b5bc7c18d}</Project>
-      <Name>IdeaBag.Portable.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

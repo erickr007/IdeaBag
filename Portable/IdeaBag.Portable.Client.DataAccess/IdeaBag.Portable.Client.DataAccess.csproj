@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
@@ -36,11 +36,11 @@
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
     <ProjectReference Include="..\IdeaBag.Portable.Data\IdeaBag.Portable.Data.csproj">
-      <Project>{d427d153-bd6b-4d74-b534-0da79a40c019}</Project>
+      <Project>{D427D153-BD6B-4D74-B534-0DA79A40C019}</Project>
       <Name>IdeaBag.Portable.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\IdeaBag.Portable.Utility\IdeaBag.Portable.Utility.csproj">
-      <Project>{57412b9c-7e62-40ef-8439-6e3b5bc7c18d}</Project>
+      <Project>{57412B9C-7E62-40EF-8439-6E3B5BC7C18D}</Project>
       <Name>IdeaBag.Portable.Utility</Name>
     </ProjectReference>
   </ItemGroup>
