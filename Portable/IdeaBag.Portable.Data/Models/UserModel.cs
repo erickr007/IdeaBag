@@ -131,5 +131,24 @@ namespace IdeaBag.Portable.Data.Models
         }
 
         #endregion
+
+
+        #region Constructor
+
+        public UserModel()
+        {
+            _connectionIDs = new List<string>();
+            _createDate = DateTime.UtcNow;
+            _firstName = string.Empty;
+            _globalID = string.Empty;
+            _isActivated = false;
+            _isFacebookLogin = false;
+            _lastName = string.Empty;
+            _passwordHash = string.Empty;
+            _userID = string.Empty;
+        }
+
+        #endregion
+
     }
 }
