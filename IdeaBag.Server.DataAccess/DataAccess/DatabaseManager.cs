@@ -170,7 +170,7 @@ namespace IdeaBag.Server.DataAccess
                     user.LastName = row["LastName"].ToString();
                     user.UserID = row["UserID"].ToString();
                     user.GlobalID = row["GlobalID"].ToString();
-                    user.IsFacebookLogin = bool.Parse(row["IsFacebookLogin"].ToString());
+                    user.UserLoginType = (LoginType)int.Parse(row["IsFacebookLogin"].ToString());
                     user.PasswordHash = row["Password"].ToString();
                     user.IsActivated = bool.Parse(row["IsActivated"].ToString());
 
@@ -338,7 +338,7 @@ namespace IdeaBag.Server.DataAccess
                         user.LastName = row["LastName"].ToString();
                         user.UserID = row["UserID"].ToString();
                         user.GlobalID = row["GlobalID"].ToString();
-                        user.IsFacebookLogin = bool.Parse(row["IsFacebookLogin"].ToString());
+                        user.UserLoginType = (LoginType)int.Parse(row["LoginType"].ToString());
                         user.PasswordHash = row["Password"].ToString();
                         user.IsActivated = true;
 
@@ -403,12 +403,12 @@ namespace IdeaBag.Server.DataAccess
         {
             SignupResultModel model = new SignupResultModel();
 
-            string cmd = "INSERT INTO USERS(GlobalID, UserID, IsFacebookLogin, Password, FirstName, LastName, CreateDate, IsActivated)";
-            cmd += "VALUES(@GlobalID, @UserID, @IsFacebookLogin, @Password, @FirstName, @LastName, @CreateDate, @IsActivated)";
+            string cmd = "INSERT INTO USERS(GlobalID, UserID, LoginType, Password, FirstName, LastName, CreateDate, IsActivated)";
+            cmd += "VALUES(@GlobalID, @UserID, @LoginType, @Password, @FirstName, @LastName, @CreateDate, @IsActivated)";
 
             SqlParameter globalid = new SqlParameter("@GlobalID", user.GlobalID);
             SqlParameter userid = new SqlParameter("@UserID", user.UserID);
-            SqlParameter isfacebooklogin = new SqlParameter("@IsFacebookLogin", user.IsFacebookLogin);
+            SqlParameter userlogintype = new SqlParameter("@LoginType", user.UserLoginType);
             SqlParameter password = new SqlParameter("@Password", user.PasswordHash);
             SqlParameter fname = new SqlParameter("@FirstName", user.FirstName);
             SqlParameter lname = new SqlParameter("@LastName", user.LastName);
@@ -429,7 +429,7 @@ namespace IdeaBag.Server.DataAccess
 
                 // - insert new user into database
                 int queryresult = DatabaseHelper.ExecuteNonQuery(cmd, _connectionString,
-                    globalid, userid, isfacebooklogin, password, fname, lname, createdate, isactive);
+                    globalid, userid, userlogintype, password, fname, lname, createdate, isactive);
 
                 if (queryresult < 0)
                 {

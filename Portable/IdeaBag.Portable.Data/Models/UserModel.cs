@@ -32,9 +32,9 @@ namespace IdeaBag.Portable.Data.Models
         private string _passwordHash;
 
         /// <summary>
-        /// Determines if user has already been authenticated through Facebook
+        /// Determines the login method applied by this user
         /// </summary>
-        private bool _isFacebookLogin;
+        private LoginType _userLoginType;
 
         /// <summary>
         /// User First Name
@@ -96,10 +96,10 @@ namespace IdeaBag.Portable.Data.Models
         }
 
         [DataMember]
-        public bool IsFacebookLogin
+        public LoginType UserLoginType
         {
-            get { return _isFacebookLogin; }
-            set { _isFacebookLogin = value; }
+            get { return _userLoginType; }
+            set { _userLoginType = value; }
         }
 
         [DataMember]
@@ -142,7 +142,7 @@ namespace IdeaBag.Portable.Data.Models
             _firstName = string.Empty;
             _globalID = string.Empty;
             _isActivated = false;
-            _isFacebookLogin = false;
+            _userLoginType = LoginType.Manual;
             _lastName = string.Empty;
             _passwordHash = string.Empty;
             _userID = string.Empty;
@@ -150,5 +150,12 @@ namespace IdeaBag.Portable.Data.Models
 
         #endregion
 
+    }
+
+    [DataContract]
+    public enum LoginType
+    {
+        Manual = 1,
+        Facebook = 2
     }
 }

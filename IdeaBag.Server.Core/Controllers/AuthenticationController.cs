@@ -32,7 +32,7 @@ namespace IdeaBag.Server.Core.Controllers
 
         #region Signup
 
-
+        [HttpPost]
         public string SignupStandardUser(string user)
         {
             string result = "";
@@ -58,6 +58,12 @@ namespace IdeaBag.Server.Core.Controllers
         public string EchoTest()
         {
             return "connect";
+        }
+
+        [HttpPost]
+        public string EchoPostTest(string data)
+        {
+            return data;
         }
 
         #endregion
