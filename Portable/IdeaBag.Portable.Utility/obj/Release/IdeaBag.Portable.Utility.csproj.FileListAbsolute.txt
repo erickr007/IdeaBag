@@ -1,0 +1,7 @@
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\bin\Release\IdeaBag.Portable.Utility.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\bin\Release\IdeaBag.Portable.Utility.pdb
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\bin\Release\Newtonsoft.Json.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\bin\Release\Newtonsoft.Json.xml
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\obj\Release\IdeaBag.Portable.Utility.csprojResolveAssemblyReference.cache
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\obj\Release\IdeaBag.Portable.Utility.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Utility\obj\Release\IdeaBag.Portable.Utility.pdb

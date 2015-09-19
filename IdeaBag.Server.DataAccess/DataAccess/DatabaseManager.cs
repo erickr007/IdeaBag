@@ -166,6 +166,7 @@ namespace IdeaBag.Server.DataAccess
                     DataRow row = ds.Tables[0].Rows[0];
                     user = new UserModel();
                     user.CreateDate = DateTime.Parse(row["CreateDate"].ToString());
+                    user.LastModified = DateTime.Parse(row["LastModified"].ToString());
                     user.FirstName = row["FirstName"].ToString();
                     user.LastName = row["LastName"].ToString();
                     user.UserID = row["UserID"].ToString();

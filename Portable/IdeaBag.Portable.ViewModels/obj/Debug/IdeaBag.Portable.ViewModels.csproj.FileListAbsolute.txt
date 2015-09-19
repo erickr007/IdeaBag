@@ -1,7 +1,1 @@
 C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\bin\Debug\IdeaBag.Portable.ViewModels.dll
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\bin\Debug\IdeaBag.Portable.ViewModels.pdb
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\bin\Debug\IdeaBag.Portable.Data.dll
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\bin\Debug\IdeaBag.Portable.Data.pdb
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\obj\Debug\IdeaBag.Portable.ViewModels.csprojResolveAssemblyReference.cache
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\obj\Debug\IdeaBag.Portable.ViewModels.dll
-C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.ViewModels\obj\Debug\IdeaBag.Portable.ViewModels.pdb

@@ -1,0 +1,5 @@
+/Volumes/C/Development/SourceCode/IdeaBag/Server/IdeaBag.Server.Core/Portable/IdeaBag.Portable.Data/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Volumes/C/Development/SourceCode/IdeaBag/Server/IdeaBag.Server.Core/Portable/IdeaBag.Portable.Data/bin/Debug/IdeaBag.Portable.Data.dll.mdb
+/Volumes/C/Development/SourceCode/IdeaBag/Server/IdeaBag.Server.Core/Portable/IdeaBag.Portable.Data/bin/Debug/IdeaBag.Portable.Data.dll
+/Volumes/C/Development/SourceCode/IdeaBag/Server/IdeaBag.Server.Core/Portable/IdeaBag.Portable.Data/obj/Debug/IdeaBag.Portable.Data.dll
+/Volumes/C/Development/SourceCode/IdeaBag/Server/IdeaBag.Server.Core/Portable/IdeaBag.Portable.Data/obj/Debug/IdeaBag.Portable.Data.dll.mdb

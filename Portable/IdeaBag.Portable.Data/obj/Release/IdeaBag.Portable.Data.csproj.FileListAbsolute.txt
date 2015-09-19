@@ -1,0 +1,5 @@
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Data\bin\Release\IdeaBag.Portable.Data.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Data\bin\Release\IdeaBag.Portable.Data.pdb
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Data\obj\Release\IdeaBag.Portable.Data.csprojResolveAssemblyReference.cache
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Data\obj\Release\IdeaBag.Portable.Data.dll
+C:\Development\SourceCode\IdeaBag\Server\IdeaBag.Server.Core\Portable\IdeaBag.Portable.Data\obj\Release\IdeaBag.Portable.Data.pdb

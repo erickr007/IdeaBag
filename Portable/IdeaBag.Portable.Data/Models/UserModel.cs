@@ -52,6 +52,11 @@ namespace IdeaBag.Portable.Data.Models
         private DateTime _createDate;
 
         /// <summary>
+        /// Date of most recent edit to the User
+        /// </summary>
+        private DateTime _lastModified;
+
+        /// <summary>
         /// Contains the active state of this User
         /// </summary>
         private bool _isActivated;
@@ -124,6 +129,13 @@ namespace IdeaBag.Portable.Data.Models
         }
 
         [DataMember]
+        public DateTime LastModified
+        {
+            get { return _lastModified; }
+            set { _lastModified = value; }
+        }
+
+        [DataMember]
         public bool IsActivated
         {
             get { return _isActivated; }
@@ -139,6 +151,7 @@ namespace IdeaBag.Portable.Data.Models
         {
             _connectionIDs = new List<string>();
             _createDate = DateTime.UtcNow;
+            _lastModified = DateTime.UtcNow;
             _firstName = string.Empty;
             _globalID = string.Empty;
             _isActivated = false;
