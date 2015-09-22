@@ -537,7 +537,7 @@ namespace IdeaBag.Server.DataAccess
         /// <param name="userid">Identifier for the user to get UserRelationships for</param>
         /// <param name="isactive">0 - gets all pending UserRelationships; 1 - gets all active relationships</param>
         /// <returns>List of UserModels belonging to users that this user relates to </returns>
-        public Task<List<UserModel>> GetUserRelationshipAsync(string userid, bool isactive)
+        public Task<List<UserModel>> GetUserRelationshipsAsync(string userid, DateTime datecreated, bool isactive)
         {
             Task<List<UserModel>> usertask = new Task<List<UserModel>>(() =>
             {
@@ -545,11 +545,13 @@ namespace IdeaBag.Server.DataAccess
 
                 try
                 {
-                    string cmd = "SELECT * FROM UserRelationships WHERE (Source_UserID = @UserID or Target_UserID = @UserID) and IsActive = @IsActive";
+                    string cmd = "SELECT * FROM UserRelationships WHERE (Source_UserID = @UserID or Target_UserID = @UserID) and IsActive = @IsActive and ";
+                    cmd += "DateCreated > '@DateCreated'";
                     SqlParameter userparam = new SqlParameter("@UserID", userid);
+                    SqlParameter createparam = new SqlParameter("@DateCreated", datecreated);
                     SqlParameter isactiveparam = new SqlParameter("@IsActive", isactive);
 
-                    DataSet resultSet = DatabaseHelper.ExecuteQuery(cmd, _connectionString, userparam, isactiveparam);
+                    DataSet resultSet = DatabaseHelper.ExecuteQuery(cmd, _connectionString, userparam, createparam, isactiveparam);
 
                     //- Create UserModel's from the other user in the relationship
                     if (resultSet != null && resultSet.Tables[0].Rows.Count > 0)
